@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from "react";
 // import logo from './logo.svg'
 import './App.css'
 import Wrapper from './components/Wrapper'
@@ -6,14 +6,29 @@ import NavbarComp from './components/Navbar'
 import Header from './components/Header'
 import ImgCard from './components/Img'
 
-function App () {
+import characters from './characters.json'
+
+
+class App extends Component {
+  state = {
+    characters
+  }
+
+
+render() {
   return (
     <Wrapper>
       <NavbarComp />
       <Header />
-      <ImgCard />
+      {this.state.characters.map((character) => (
+        <ImgCard 
+          image={character.image}
+        />
+      ))}
     </Wrapper>
   )
+}
+
 }
 
 export default App
