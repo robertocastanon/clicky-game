@@ -1,7 +1,11 @@
 // import React from 'react'
 // import './style.css'
-// import Container from 'react-bootstrap/Container'
-// import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
+// import ImgCard from '../Img'
 
-// Container
+// const Container = props => (
+//     <div className = "container d-flex flex-wrap justify-content-center">
+//         {props.ImgCard.map((a, i) => clickEvenet={props.clickEvenet} />)}
+//     </div>
+// )
+
+// export default Container

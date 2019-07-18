@@ -1,12 +1,62 @@
 [
     {
         "id": 1,
-        "name": "blank1",
-        "image": "https://via.placeholder.com/300.png/09f/fff%20C/O%20https://placeholder.com/"
+        "image": "/images/one.png",
+        "name": "one"
     },
     {
         "id": 2,
-        "name": "blak2",
-        "image": "https://via.placeholder.com/300.png/09f/fff%20C/O%20https://placeholder.com/"
+        "image": "/images/two.png",
+        "name": "two"
+    },
+    {
+        "id": 3,
+        "image": "/images/three.png",
+        "name": "three"
+    },
+    {
+        "id": 4,
+        "image": "/images/four.png",
+        "name": "four"
+    },
+    {
+        "id": 5,
+        "image": "/images/five.png",
+        "name": "five"
+    },
+    {
+        "id": 6,
+        "image": "/images/six.png",
+        "name": "six"
+    },
+    {
+        "id": 7,
+        "image": "/images/seven.png",
+        "name": "seven"
+    },
+    {
+        "id": 8,
+        "image": "/images/eight.png",
+        "name": "eight"
+    },
+    {
+        "id": 9,
+        "image": "/images/nine.png",
+        "name": "nine"
+    },
+    {
+        "id": 10,
+        "image": "/images/ten.png",
+        "name": "ten"
+    },
+    {
+        "id": 11,
+        "image": "/images/eleven.png",
+        "name": "eleven"
+    },
+    {
+        "id": 12,
+        "image": "/images/twelve.png",
+        "name": "twelve"
     }
 ]
