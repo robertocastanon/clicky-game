@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './App.css'
 import ScoreNav from './components/Navbar'
-import Header from './components/Header'
+// import Header from './components/Header'
 import ImgCard from './components/Img'
 import characters from './characters.json'
 
@@ -19,7 +19,9 @@ class App extends Component {
     characters,
     score: 0,
     topScore: 0,
-    beenClicked: []
+    beenClicked: [],
+    displayLoss: 0,
+    displayWin: 0
 
   }
 
@@ -27,8 +29,10 @@ class App extends Component {
     let beenClicked = this.state.beenClicked
     let score = this.state.score
     let topScore = this.state.topScore
+    this.setState({
+      displayLoss: 0
+    })
   
-
   if (beenClicked.indexOf(id) === -1) {
     beenClicked.push(id)
     console.log(beenClicked)
@@ -39,7 +43,8 @@ class App extends Component {
   } else if (this.state.score === 12) {
     this.setState({
       score: 0,
-      beenClicked: []
+      beenClicked: [],
+      displayWin: 1
     })
   } else {
     this.setState({
@@ -47,6 +52,9 @@ class App extends Component {
       beenClicked: []
     })
     console.log('dupes')
+    this.setState({
+      displayLoss: 1
+    })
   }
 
   if (score > topScore) {
@@ -57,7 +65,7 @@ class App extends Component {
 }
 
 handleIncrement = () => {
-  this.setState({ score: this.state.score + 1})
+  this.setState({ score: this.state.score + 1 })
 }
 
 createShuffle = () => {
@@ -72,6 +80,9 @@ createShuffle = () => {
           title="This is a title"
           topScore={this.state.topScore}
         />
+        <div id="displayLoss" className="alert alert-danger fixed top" style={{ opacity: this.state.displayLoss }}>
+          You clicked on a duplicate, try again!
+        </div>
         {/* <Header /> */}
         <div className="container">
           <div className="row">
