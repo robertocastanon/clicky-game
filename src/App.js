@@ -4,6 +4,7 @@ import ScoreNav from './components/Navbar'
 // import Header from './components/Header'
 import ImgCard from './components/Img'
 import characters from './characters.json'
+import Footer from './components/Footer'
 
 //shuffle upon each click
 function shuffle(array) {
@@ -102,6 +103,7 @@ createShuffle = () => {
             ))}
             </div>
         </div>
+        <Footer />
       </div>
     )
   }
