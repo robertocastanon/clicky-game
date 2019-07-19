@@ -6,12 +6,12 @@ import ImgCard from './components/Img'
 import characters from './characters.json'
 
 //shuffle upon each click
-function shuffle(arr) {
-  for (let i = arr.length -1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    [arr[i], arr[j]] = [arr[j], arr[i]]
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
-  return arr
+  return array;
 }
 
 class App extends Component {
@@ -19,8 +19,50 @@ class App extends Component {
     characters,
     score: 0,
     topScore: 0,
-    
+    beenClicked: []
+
   }
+
+  clicked = id => {
+    let beenClicked = this.state.beenClicked
+    let score = this.state.score
+    let topScore = this.state.topScore
+  
+
+  if (beenClicked.indexOf(id) === -1) {
+    beenClicked.push(id)
+    console.log(beenClicked)
+
+    this.handleIncrement()
+    this.createShuffle()
+
+  } else if (this.state.score === 12) {
+    this.setState({
+      score: 0,
+      beenClicked: []
+    })
+  } else {
+    this.setState({
+      score: 0,
+      beenClicked: []
+    })
+    console.log('dupes')
+  }
+
+  if (score > topScore) {
+    this.setState({
+      topScore: score
+    })
+  }
+}
+
+handleIncrement = () => {
+  this.setState({ score: this.state.score + 1})
+}
+
+createShuffle = () => {
+  this.setState({ characters: shuffle(characters) })
+}
 
   render () {
     return (
@@ -31,8 +73,10 @@ class App extends Component {
           <div className="row">
             {this.state.characters.map((character) => (
               <ImgCard
+                id={character.id}
                 name={character.name}
                 image={character.image}
+                clicked={this.clicked}
               />
             ))}
             </div>
