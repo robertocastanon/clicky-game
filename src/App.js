@@ -42,9 +42,9 @@ class App extends Component {
 
   } else if (this.state.score === 12) {
     this.setState({
+      displayWin: 1,
       score: 0,
-      beenClicked: [],
-      displayWin: 1
+      beenClicked: []
     })
   } else {
     this.setState({
@@ -80,9 +80,14 @@ createShuffle = () => {
           title="This is a title"
           topScore={this.state.topScore}
         />
-        <div id="displayLoss" className="alert alert-danger fixed top" style={{ opacity: this.state.displayLoss }}>
-          You clicked on a duplicate, try again!
+        <row>
+        <div className="alert alert-danger text-center" style={{ opacity: this.state.displayLoss }}>
+          You clicked on a duplicate, click any card to try again!
         </div>
+        <div className="alert alert-success text-center" style={{ opacity: this.state.displayWin }}>
+          You got the highest score! Good Job!
+        </div>
+        </row>
         {/* <Header /> */}
         <div className="container">
           <div className="row">
