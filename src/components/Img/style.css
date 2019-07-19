@@ -9,11 +9,6 @@
   background-repeat: no-repeat;
 }
 
-/* .card:hover {
-  cursor: pointer;
-  transform: scale(1.3);
-} */
-
 .card .img-container > img {
   width: 100%;
   height: 100%;

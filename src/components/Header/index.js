@@ -4,7 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 function Header () {
   return (
-    <Jumbotron>
+    <Jumbotron fixed="top">
       <h1>Jumbotron</h1>
     </Jumbotron>
   )
