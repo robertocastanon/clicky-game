@@ -68,8 +68,8 @@ createShuffle = () => {
     return (
       <div>
         <ScoreNav 
-          title="This is a title"
           score={this.state.score}
+          title="This is a title"
           topScore={this.state.topScore}
         />
         {/* <Header /> */}
