@@ -67,12 +67,17 @@ createShuffle = () => {
   render () {
     return (
       <div>
-        <ScoreNav />
-        <Header />
+        <ScoreNav 
+          title="This is a title"
+          score={this.state.score}
+          topScore={this.state.topScore}
+        />
+        {/* <Header /> */}
         <div className="container">
           <div className="row">
             {this.state.characters.map((character) => (
               <ImgCard
+                key={character.id}
                 id={character.id}
                 name={character.name}
                 image={character.image}
