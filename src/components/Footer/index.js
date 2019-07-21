@@ -2,8 +2,8 @@ import React from 'react'
 import './style.css'
 
 const FooterComp = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <div className="col-sm text-center"><h6>THIS IS A FOOTER</h6></div>
+  <nav className="navbar navbar-expand-lg bg-dark text-light">
+    <a href="https://github.com/robertocastanon/clicky-game" className="col-sm text-center"><h7>Github Repo</h7></a>
   </nav>
 )
 

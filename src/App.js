@@ -86,7 +86,7 @@ createShuffle = () => {
       <div>
         <ScoreNav 
           score={this.state.score}
-          title="This is a title"
+          title="BB Game"
           highScore={this.state.highScore}
         />
         <row>

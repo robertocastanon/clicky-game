@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "/images/one.png",
-        "name": "one"
+        "image": "/images/walter.jpg",
+        "name": "walter"
     },
     {
         "id": 2,
-        "image": "/images/two.png",
-        "name": "two"
+        "image": "/images/skyler.jpg",
+        "name": "Skyler"
     },
     {
         "id": 3,
-        "image": "/images/three.png",
-        "name": "three"
+        "image": "/images/flynn.jpg",
+        "name": "Flynn"
     },
     {
         "id": 4,
-        "image": "/images/four.png",
-        "name": "four"
+        "image": "/images/hank.jpg",
+        "name": "Hank"
     },
     {
         "id": 5,
-        "image": "/images/five.png",
-        "name": "five"
+        "image": "/images/marie.jpg",
+        "name": "Marie"
     },
     {
         "id": 6,
-        "image": "/images/six.png",
-        "name": "six"
+        "image": "/images/jesse.jpg",
+        "name": "Jesse"
     },
     {
         "id": 7,
-        "image": "/images/seven.png",
-        "name": "seven"
+        "image": "/images/jane.jpg",
+        "name": "Jane"
     },
     {
         "id": 8,
-        "image": "/images/eight.png",
-        "name": "eight"
+        "image": "/images/saul.jpg",
+        "name": "Saul"
     },
     {
         "id": 9,
-        "image": "/images/nine.png",
-        "name": "nine"
+        "image": "/images/lydia.jpg",
+        "name": "Lydia"
     },
     {
         "id": 10,
-        "image": "/images/ten.png",
-        "name": "ten"
+        "image": "/images/todd.jpg",
+        "name": "Todd"
     },
     {
         "id": 11,
-        "image": "/images/eleven.png",
-        "name": "eleven"
+        "image": "/images/gus.jpg",
+        "name": "Gus"
     },
     {
         "id": 12,
-        "image": "/images/twelve.png",
-        "name": "twelve"
+        "image": "/images/tuco.jpg",
+        "name": "Tuco"
     }
 ]
