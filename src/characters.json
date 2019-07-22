@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "/images/walter.jpg",
-        "name": "walter"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/0/05/Cat.png/revision/latest?cb=20150528124910",
+        "name": "cat"
     },
     {
         "id": 2,
-        "image": "/images/skyler.jpg",
-        "name": "Skyler"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/c/c2/Tank_cat.png/revision/latest?cb=20150604160102",
+        "name": "tank cat"
     },
     {
         "id": 3,
-        "image": "/images/flynn.jpg",
-        "name": "Flynn"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/0/0b/Axe_cat.png/revision/latest?cb=20150602174921",
+        "name": "axe cat"
     },
     {
         "id": 4,
-        "image": "/images/hank.jpg",
-        "name": "Hank"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/c/c8/Gross_cat.png/revision/latest?cb=20150621120346",
+        "name": "gross cat"
     },
     {
         "id": 5,
-        "image": "/images/marie.jpg",
-        "name": "Marie"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/8/83/Cow_cat.png/revision/latest?cb=20150527170920",
+        "name": "cow cat"
     },
     {
         "id": 6,
-        "image": "/images/jesse.jpg",
-        "name": "Jesse"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/7/75/Bird_cat.png/revision/latest?cb=20150528123248",
+        "name": "bird cat"
     },
     {
         "id": 7,
-        "image": "/images/jane.jpg",
-        "name": "Jane"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/d/d1/Fish_cat.png/revision/latest?cb=20150527170428",
+        "name": "fish cat"
     },
     {
         "id": 8,
-        "image": "/images/saul.jpg",
-        "name": "Saul"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/a/a6/Lizard_cat.png/revision/latest?cb=20150529203620",
+        "name": "lizard cat"
     },
     {
         "id": 9,
-        "image": "/images/lydia.jpg",
-        "name": "Lydia"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/6/67/Titan_cat.png/revision/latest?cb=20150602183346",
+        "name": "titan cat"
     },
     {
         "id": 10,
-        "image": "/images/todd.jpg",
-        "name": "Todd"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/d/d8/Moneko.png/revision/latest?cb=20150710131423",
+        "name": "moneko cat"
     },
     {
         "id": 11,
-        "image": "/images/gus.jpg",
-        "name": "Gus"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/b/bf/Valkyrie_Cat.png/revision/latest?cb=20150601223845",
+        "name": "valkyrie cat"
     },
     {
         "id": 12,
-        "image": "/images/tuco.jpg",
-        "name": "Tuco"
+        "image": "https://vignette.wikia.nocookie.net/battle-cats/images/2/22/Bahamut_cat.png/revision/latest?cb=20150527175637",
+        "name": "bahamut cat"
     }
 ]
